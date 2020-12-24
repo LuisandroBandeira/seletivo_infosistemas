@@ -9,7 +9,7 @@ Orientações de uso
 O sistema faz uso das DLLs <b>libeay32.dll</b> e <b>ssleay32.dll</b> para envio de e-mail e devem estar no mesmo diretório do executável.</br>
 O sistema também faz uso do arquivo <b>email_config.ini</b> para envio de e-mail e deve estar no mesmo diretório do executável.</br>
 
-Para garantir que esses arquvivos estejam no mesmo diretório do executável, foi criado um scrip que é executado nos eventos de <b>Post-build events</b> do projeto.</br>
+Para garantir que esses arquvivos estejam no mesmo diretório do executável, foi criado um script que é executado no <b>Post-build events</b> do projeto.</br>
 Esse script faz a cópia dos arquivos <b>libeay32.dll</b>, <b>ssleay32.dll</b> e <b>email_config.ini</b> do diretório do projeto para o diretório onde o executável é gerado.</br>
 para visualizar o script do <b>Post-build events</b> vá em:</br> 
 <b>Project -> Options -> Building -> Build Events -> Post-build events -> Commands -> Value from "All configurations - All platforms"</b>
