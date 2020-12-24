@@ -1,4 +1,4 @@
-# seletivo_infosisteman
+# seletivo_infosistemas
 
 Processo Seletivo InfoSistemas - DELPHI - Luisandro Nachtigal Bandeira
 
