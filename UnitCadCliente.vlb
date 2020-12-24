@@ -1,0 +1,10 @@
+﻿[dsCliente]
+Coordinates=0,0,68,36
+
+[]
+Coordinates=10,78,62,36
+
+[cdsCliente]
+Coordinates=10,10,99,58
+Visible=True
+
